@@ -1,10 +1,10 @@
 @import url("https://rsms.me/inter/inter-ui.css");
 html {
-  font-family: "Inter UI", sans-serif;
+  font-family: "Inter UI", sans-serif !important;
 }
 @supports (font-variation-settings: normal) {
   html {
-    font-family: "Inter UI var alt", sans-serif;
+    font-family: "Inter UI var alt", sans-serif !important;
   }
 }
 
@@ -21,6 +21,12 @@ div.container {
 
 h1.main-header {
   text-align: center;
+}
+
+.h2 {
+  height: 0.8em;
+  line-height: 0.8em;
+  padding-left: 0.5em;
 }
 
 ul {
